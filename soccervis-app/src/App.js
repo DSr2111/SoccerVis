@@ -3,7 +3,7 @@ import PlayerCard from './components/PlayerCard';
 import PlayerProfile from './pages/PlayerProfile';
 import LeaguePage from './pages/LeaguePage';
 import TeamPage from './pages/TeamPage';
-import { fetchPlayerData } from './utils/api';
+import { fetchPlayerData } from './utils/Api';
 
 const App = () => {
   const [players, setPlayers] = useState([]);
