@@ -1,0 +1,2154 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Marc-Andr\u00e9 ter Stegen",
+      "team": "Elche CF",
+      "position": "Defender",
+      "performance": {
+        "Gls": 5,
+        "Ast": 4,
+        "PK": 0,
+        "PKatt": 0,
+        "Sh": 8,
+        "SoT": 3,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 95,
+        "Tkl": 15,
+        "Int": 3,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 4.2,
+        "npxG": 1.8,
+        "xAG": 4.7
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 49,
+        "Att": 1,
+        "Cmp%": 84.7,
+        "PrgP": 9
+      },
+      "carries": {
+        "Carries": 30,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 10,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 2,
+      "name": "Gerard Piqu\u00e9",
+      "team": "Almeria",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 10,
+        "Ast": 0,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 12,
+        "SoT": 3,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 16,
+        "Tkl": 15,
+        "Int": 7,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 1.2,
+        "npxG": 3.8,
+        "xAG": 0.3
+      },
+      "sca": {
+        "SCA": 3,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 23,
+        "Att": 2,
+        "Cmp%": 60.4,
+        "PrgP": 17
+      },
+      "carries": {
+        "Carries": 6,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 3,
+      "name": "Jordi Alba",
+      "team": "Granada CF",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 6,
+        "Ast": 1,
+        "PK": 2,
+        "PKatt": 0,
+        "Sh": 15,
+        "SoT": 9,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 25,
+        "Tkl": 2,
+        "Int": 5,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 1.6,
+        "npxG": 3.3,
+        "xAG": 3.2
+      },
+      "sca": {
+        "SCA": 8,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 11,
+        "Att": 53,
+        "Cmp%": 96.5,
+        "PrgP": 12
+      },
+      "carries": {
+        "Carries": 23,
+        "PrgC": 3
+      },
+      "takeOns": {
+        "Att": 10,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 4,
+      "name": "Sergio Busquets",
+      "team": "Real Sociedad",
+      "position": "Forward",
+      "performance": {
+        "Gls": 9,
+        "Ast": 4,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 0,
+        "SoT": 3,
+        "CrdY": 1,
+        "CrdR": 1,
+        "Touches": 10,
+        "Tkl": 12,
+        "Int": 4,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 3.7,
+        "npxG": 2.4,
+        "xAG": 1.9
+      },
+      "sca": {
+        "SCA": 0,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 4,
+        "Att": 58,
+        "Cmp%": 94.9,
+        "PrgP": 13
+      },
+      "carries": {
+        "Carries": 1,
+        "PrgC": 9
+      },
+      "takeOns": {
+        "Att": 0,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 5,
+      "name": "Frenkie de Jong",
+      "team": "Mallorca",
+      "position": "Forward",
+      "performance": {
+        "Gls": 3,
+        "Ast": 2,
+        "PK": 0,
+        "PKatt": 3,
+        "Sh": 6,
+        "SoT": 4,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 10,
+        "Tkl": 1,
+        "Int": 4,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 2.4,
+        "npxG": 3.3,
+        "xAG": 0.0
+      },
+      "sca": {
+        "SCA": 10,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 13,
+        "Att": 35,
+        "Cmp%": 66.5,
+        "PrgP": 16
+      },
+      "carries": {
+        "Carries": 8,
+        "PrgC": 0
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ansu Fati",
+      "team": "Sevilla FC",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 9,
+        "Ast": 1,
+        "PK": 0,
+        "PKatt": 0,
+        "Sh": 7,
+        "SoT": 4,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 34,
+        "Tkl": 4,
+        "Int": 4,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 0.2,
+        "npxG": 3.3,
+        "xAG": 3.6
+      },
+      "sca": {
+        "SCA": 9,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 25,
+        "Att": 13,
+        "Cmp%": 74.5,
+        "PrgP": 5
+      },
+      "carries": {
+        "Carries": 28,
+        "PrgC": 5
+      },
+      "takeOns": {
+        "Att": 2,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 7,
+      "name": "Pedri",
+      "team": "Espanyol",
+      "position": "Forward",
+      "performance": {
+        "Gls": 1,
+        "Ast": 0,
+        "PK": 1,
+        "PKatt": 2,
+        "Sh": 15,
+        "SoT": 2,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 51,
+        "Tkl": 0,
+        "Int": 2,
+        "Blocks": 3
+      },
+      "expected": {
+        "xG": 3.1,
+        "npxG": 0.9,
+        "xAG": 0.5
+      },
+      "sca": {
+        "SCA": 6,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 35,
+        "Att": 12,
+        "Cmp%": 99.6,
+        "PrgP": 16
+      },
+      "carries": {
+        "Carries": 21,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 7,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 8,
+      "name": "Antoine Griezmann",
+      "team": "Atletico Madrid",
+      "position": "Forward",
+      "performance": {
+        "Gls": 0,
+        "Ast": 5,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 15,
+        "SoT": 4,
+        "CrdY": 2,
+        "CrdR": 0,
+        "Touches": 30,
+        "Tkl": 0,
+        "Int": 9,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 3.8,
+        "npxG": 0.2,
+        "xAG": 4.7
+      },
+      "sca": {
+        "SCA": 7,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 48,
+        "Att": 36,
+        "Cmp%": 91.5,
+        "PrgP": 12
+      },
+      "carries": {
+        "Carries": 24,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 2,
+        "Succ": 0
+      }
+    },
+    {
+      "id": 9,
+      "name": "Karim Benzema",
+      "team": "Valencia CF",
+      "position": "Forward",
+      "performance": {
+        "Gls": 7,
+        "Ast": 2,
+        "PK": 2,
+        "PKatt": 1,
+        "Sh": 13,
+        "SoT": 7,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 85,
+        "Tkl": 14,
+        "Int": 4,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 1.9,
+        "npxG": 4.4,
+        "xAG": 3.7
+      },
+      "sca": {
+        "SCA": 5,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 33,
+        "Att": 38,
+        "Cmp%": 72.4,
+        "PrgP": 20
+      },
+      "carries": {
+        "Carries": 0,
+        "PrgC": 4
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 10,
+      "name": "Luka Modric",
+      "team": "FC Barcelona",
+      "position": "Defender",
+      "performance": {
+        "Gls": 9,
+        "Ast": 4,
+        "PK": 0,
+        "PKatt": 0,
+        "Sh": 1,
+        "SoT": 0,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 29,
+        "Tkl": 0,
+        "Int": 8,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 2.0,
+        "npxG": 4.1,
+        "xAG": 3.2
+      },
+      "sca": {
+        "SCA": 5,
+        "GCA": 1
+      },
+      "passes": {
+        "Cmp": 5,
+        "Att": 27,
+        "Cmp%": 98.2,
+        "PrgP": 1
+      },
+      "carries": {
+        "Carries": 5,
+        "PrgC": 10
+      },
+      "takeOns": {
+        "Att": 0,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 11,
+      "name": "Thibaut Courtois",
+      "team": "Rayo Vallecano",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 9,
+        "Ast": 3,
+        "PK": 1,
+        "PKatt": 2,
+        "Sh": 13,
+        "SoT": 10,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 26,
+        "Tkl": 1,
+        "Int": 2,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 4.8,
+        "npxG": 0.5,
+        "xAG": 0.3
+      },
+      "sca": {
+        "SCA": 10,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 46,
+        "Att": 42,
+        "Cmp%": 92.2,
+        "PrgP": 14
+      },
+      "carries": {
+        "Carries": 26,
+        "PrgC": 13
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 0
+      }
+    },
+    {
+      "id": 12,
+      "name": "Casemiro",
+      "team": "Real Sociedad",
+      "position": "Defender",
+      "performance": {
+        "Gls": 8,
+        "Ast": 3,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 3,
+        "SoT": 8,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 42,
+        "Tkl": 8,
+        "Int": 7,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 4.1,
+        "npxG": 2.0,
+        "xAG": 1.4
+      },
+      "sca": {
+        "SCA": 2,
+        "GCA": 1
+      },
+      "passes": {
+        "Cmp": 20,
+        "Att": 37,
+        "Cmp%": 68.6,
+        "PrgP": 19
+      },
+      "carries": {
+        "Carries": 11,
+        "PrgC": 11
+      },
+      "takeOns": {
+        "Att": 9,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 13,
+      "name": "Sergio Ramos",
+      "team": "Mallorca",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 6,
+        "Ast": 4,
+        "PK": 0,
+        "PKatt": 1,
+        "Sh": 12,
+        "SoT": 1,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 21,
+        "Tkl": 6,
+        "Int": 6,
+        "Blocks": 3
+      },
+      "expected": {
+        "xG": 0.8,
+        "npxG": 3.5,
+        "xAG": 4.5
+      },
+      "sca": {
+        "SCA": 5,
+        "GCA": 1
+      },
+      "passes": {
+        "Cmp": 25,
+        "Att": 52,
+        "Cmp%": 73.2,
+        "PrgP": 0
+      },
+      "carries": {
+        "Carries": 25,
+        "PrgC": 13
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 14,
+      "name": "Toni Kroos",
+      "team": "Getafe CF",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 2,
+        "Ast": 1,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 8,
+        "SoT": 9,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 43,
+        "Tkl": 15,
+        "Int": 9,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 1.3,
+        "npxG": 4.6,
+        "xAG": 1.4
+      },
+      "sca": {
+        "SCA": 6,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 29,
+        "Att": 3,
+        "Cmp%": 90.7,
+        "PrgP": 8
+      },
+      "carries": {
+        "Carries": 25,
+        "PrgC": 3
+      },
+      "takeOns": {
+        "Att": 3,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 15,
+      "name": "Jan Oblak",
+      "team": "Elche CF",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 6,
+        "Ast": 5,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 3,
+        "SoT": 7,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 81,
+        "Tkl": 8,
+        "Int": 10,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 1.6,
+        "npxG": 3.6,
+        "xAG": 1.5
+      },
+      "sca": {
+        "SCA": 3,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 48,
+        "Att": 9,
+        "Cmp%": 65.4,
+        "PrgP": 6
+      },
+      "carries": {
+        "Carries": 14,
+        "PrgC": 1
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 16,
+      "name": "Jo\u00e3o F\u00e9lix",
+      "team": "Real Betis",
+      "position": "Forward",
+      "performance": {
+        "Gls": 10,
+        "Ast": 1,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 11,
+        "SoT": 7,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 17,
+        "Tkl": 7,
+        "Int": 3,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 4.2,
+        "npxG": 3.7,
+        "xAG": 4.1
+      },
+      "sca": {
+        "SCA": 7,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 0,
+        "Att": 3,
+        "Cmp%": 90.0,
+        "PrgP": 20
+      },
+      "carries": {
+        "Carries": 22,
+        "PrgC": 3
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 17,
+      "name": "Luis Su\u00e1rez",
+      "team": "Real Sociedad",
+      "position": "Forward",
+      "performance": {
+        "Gls": 2,
+        "Ast": 3,
+        "PK": 2,
+        "PKatt": 3,
+        "Sh": 15,
+        "SoT": 10,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 49,
+        "Tkl": 1,
+        "Int": 0,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 3.6,
+        "npxG": 2.9,
+        "xAG": 1.0
+      },
+      "sca": {
+        "SCA": 5,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 13,
+        "Att": 9,
+        "Cmp%": 73.4,
+        "PrgP": 0
+      },
+      "carries": {
+        "Carries": 9,
+        "PrgC": 10
+      },
+      "takeOns": {
+        "Att": 5,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 18,
+      "name": "Sa\u00fal \u00d1\u00edguez",
+      "team": "Getafe CF",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 5,
+        "Ast": 5,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 9,
+        "SoT": 0,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 47,
+        "Tkl": 12,
+        "Int": 5,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 0.8,
+        "npxG": 1.3,
+        "xAG": 2.3
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 17,
+        "Att": 28,
+        "Cmp%": 87.7,
+        "PrgP": 7
+      },
+      "carries": {
+        "Carries": 23,
+        "PrgC": 2
+      },
+      "takeOns": {
+        "Att": 4,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 19,
+      "name": "Yannick Carrasco",
+      "team": "Las Palmas",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 0,
+        "Ast": 4,
+        "PK": 2,
+        "PKatt": 3,
+        "Sh": 11,
+        "SoT": 3,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 25,
+        "Tkl": 2,
+        "Int": 7,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 2.2,
+        "npxG": 3.6,
+        "xAG": 1.1
+      },
+      "sca": {
+        "SCA": 8,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 46,
+        "Att": 49,
+        "Cmp%": 91.7,
+        "PrgP": 15
+      },
+      "carries": {
+        "Carries": 8,
+        "PrgC": 0
+      },
+      "takeOns": {
+        "Att": 5,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 20,
+      "name": "\u00c1ngel Correa",
+      "team": "Almeria",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 8,
+        "Ast": 1,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 5,
+        "SoT": 1,
+        "CrdY": 0,
+        "CrdR": 1,
+        "Touches": 94,
+        "Tkl": 1,
+        "Int": 7,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 0.9,
+        "npxG": 4.8,
+        "xAG": 1.5
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 28,
+        "Att": 30,
+        "Cmp%": 90.8,
+        "PrgP": 5
+      },
+      "carries": {
+        "Carries": 2,
+        "PrgC": 5
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 21,
+      "name": "Jules Kound\u00e9",
+      "team": "FC Barcelona",
+      "position": "Defender",
+      "performance": {
+        "Gls": 10,
+        "Ast": 3,
+        "PK": 1,
+        "PKatt": 2,
+        "Sh": 5,
+        "SoT": 8,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 87,
+        "Tkl": 12,
+        "Int": 7,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 4.4,
+        "npxG": 0.3,
+        "xAG": 4.9
+      },
+      "sca": {
+        "SCA": 4,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 14,
+        "Att": 10,
+        "Cmp%": 77.6,
+        "PrgP": 12
+      },
+      "carries": {
+        "Carries": 15,
+        "PrgC": 5
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 22,
+      "name": "Youssef En-Nesyri",
+      "team": "Elche CF",
+      "position": "Defender",
+      "performance": {
+        "Gls": 8,
+        "Ast": 5,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 3,
+        "SoT": 7,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 39,
+        "Tkl": 13,
+        "Int": 0,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 4.8,
+        "npxG": 1.1,
+        "xAG": 4.0
+      },
+      "sca": {
+        "SCA": 6,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 29,
+        "Att": 11,
+        "Cmp%": 85.2,
+        "PrgP": 3
+      },
+      "carries": {
+        "Carries": 27,
+        "PrgC": 4
+      },
+      "takeOns": {
+        "Att": 3,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 23,
+      "name": "Ivan Rakiti\u0107",
+      "team": "Real Madrid",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 8,
+        "Ast": 5,
+        "PK": 2,
+        "PKatt": 0,
+        "Sh": 6,
+        "SoT": 10,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 33,
+        "Tkl": 7,
+        "Int": 10,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 0.8,
+        "npxG": 3.0,
+        "xAG": 3.1
+      },
+      "sca": {
+        "SCA": 2,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 27,
+        "Att": 26,
+        "Cmp%": 91.1,
+        "PrgP": 11
+      },
+      "carries": {
+        "Carries": 5,
+        "PrgC": 14
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 24,
+      "name": "Suso",
+      "team": "Real Madrid",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 1,
+        "Ast": 3,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 5,
+        "SoT": 3,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 72,
+        "Tkl": 4,
+        "Int": 1,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 1.8,
+        "npxG": 4.9,
+        "xAG": 3.3
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 21,
+        "Att": 3,
+        "Cmp%": 84.4,
+        "PrgP": 10
+      },
+      "carries": {
+        "Carries": 19,
+        "PrgC": 5
+      },
+      "takeOns": {
+        "Att": 9,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 25,
+      "name": "David Silva",
+      "team": "Granada CF",
+      "position": "Defender",
+      "performance": {
+        "Gls": 7,
+        "Ast": 5,
+        "PK": 0,
+        "PKatt": 3,
+        "Sh": 6,
+        "SoT": 4,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 53,
+        "Tkl": 15,
+        "Int": 7,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 1.4,
+        "npxG": 2.4,
+        "xAG": 1.7
+      },
+      "sca": {
+        "SCA": 3,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 43,
+        "Att": 35,
+        "Cmp%": 83.6,
+        "PrgP": 2
+      },
+      "carries": {
+        "Carries": 28,
+        "PrgC": 0
+      },
+      "takeOns": {
+        "Att": 2,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 26,
+      "name": "Mikel Oyarzabal",
+      "team": "Sevilla FC",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 4,
+        "Ast": 4,
+        "PK": 2,
+        "PKatt": 0,
+        "Sh": 3,
+        "SoT": 4,
+        "CrdY": 2,
+        "CrdR": 0,
+        "Touches": 30,
+        "Tkl": 9,
+        "Int": 4,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 2.4,
+        "npxG": 0.3,
+        "xAG": 1.8
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 43,
+        "Att": 25,
+        "Cmp%": 72.2,
+        "PrgP": 13
+      },
+      "carries": {
+        "Carries": 6,
+        "PrgC": 9
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 27,
+      "name": "Alexander Isak",
+      "team": "Real Sociedad",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 0,
+        "Ast": 1,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 3,
+        "SoT": 6,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 34,
+        "Tkl": 1,
+        "Int": 10,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 4.0,
+        "npxG": 2.5,
+        "xAG": 1.6
+      },
+      "sca": {
+        "SCA": 10,
+        "GCA": 1
+      },
+      "passes": {
+        "Cmp": 22,
+        "Att": 2,
+        "Cmp%": 70.8,
+        "PrgP": 14
+      },
+      "carries": {
+        "Carries": 2,
+        "PrgC": 8
+      },
+      "takeOns": {
+        "Att": 7,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 28,
+      "name": "I\u00f1igo Mart\u00ednez",
+      "team": "Cadiz CF",
+      "position": "Defender",
+      "performance": {
+        "Gls": 2,
+        "Ast": 3,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 10,
+        "SoT": 1,
+        "CrdY": 1,
+        "CrdR": 1,
+        "Touches": 24,
+        "Tkl": 0,
+        "Int": 5,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 5.0,
+        "npxG": 0.2,
+        "xAG": 1.8
+      },
+      "sca": {
+        "SCA": 7,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 20,
+        "Att": 59,
+        "Cmp%": 95.0,
+        "PrgP": 16
+      },
+      "carries": {
+        "Carries": 24,
+        "PrgC": 4
+      },
+      "takeOns": {
+        "Att": 5,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 29,
+      "name": "Unai Sim\u00f3n",
+      "team": "Rayo Vallecano",
+      "position": "Forward",
+      "performance": {
+        "Gls": 7,
+        "Ast": 2,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 12,
+        "SoT": 8,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 27,
+        "Tkl": 15,
+        "Int": 10,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 4.4,
+        "npxG": 2.2,
+        "xAG": 1.9
+      },
+      "sca": {
+        "SCA": 0,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 23,
+        "Att": 2,
+        "Cmp%": 65.8,
+        "PrgP": 15
+      },
+      "carries": {
+        "Carries": 1,
+        "PrgC": 10
+      },
+      "takeOns": {
+        "Att": 9,
+        "Succ": 0
+      }
+    },
+    {
+      "id": 30,
+      "name": "I\u00f1aki Williams",
+      "team": "Getafe CF",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 0,
+        "Ast": 0,
+        "PK": 2,
+        "PKatt": 3,
+        "Sh": 3,
+        "SoT": 2,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 88,
+        "Tkl": 5,
+        "Int": 4,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 1.0,
+        "npxG": 2.7,
+        "xAG": 1.4
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 23,
+        "Att": 52,
+        "Cmp%": 76.0,
+        "PrgP": 2
+      },
+      "carries": {
+        "Carries": 16,
+        "PrgC": 4
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 31,
+      "name": "Pau Torres",
+      "team": "Celta Vigo",
+      "position": "Defender",
+      "performance": {
+        "Gls": 7,
+        "Ast": 3,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 4,
+        "SoT": 3,
+        "CrdY": 2,
+        "CrdR": 1,
+        "Touches": 12,
+        "Tkl": 10,
+        "Int": 8,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 2.7,
+        "npxG": 4.3,
+        "xAG": 4.0
+      },
+      "sca": {
+        "SCA": 0,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 8,
+        "Att": 19,
+        "Cmp%": 94.5,
+        "PrgP": 6
+      },
+      "carries": {
+        "Carries": 30,
+        "PrgC": 14
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 32,
+      "name": "Gerard Moreno",
+      "team": "Espanyol",
+      "position": "Defender",
+      "performance": {
+        "Gls": 6,
+        "Ast": 3,
+        "PK": 0,
+        "PKatt": 1,
+        "Sh": 13,
+        "SoT": 8,
+        "CrdY": 1,
+        "CrdR": 0,
+        "Touches": 55,
+        "Tkl": 7,
+        "Int": 7,
+        "Blocks": 2
+      },
+      "expected": {
+        "xG": 1.9,
+        "npxG": 2.6,
+        "xAG": 4.3
+      },
+      "sca": {
+        "SCA": 10,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 33,
+        "Att": 50,
+        "Cmp%": 96.8,
+        "PrgP": 11
+      },
+      "carries": {
+        "Carries": 15,
+        "PrgC": 3
+      },
+      "takeOns": {
+        "Att": 4,
+        "Succ": 0
+      }
+    },
+    {
+      "id": 33,
+      "name": "Dani Parejo",
+      "team": "Athletic Bilbao",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 9,
+        "Ast": 1,
+        "PK": 1,
+        "PKatt": 3,
+        "Sh": 11,
+        "SoT": 10,
+        "CrdY": 0,
+        "CrdR": 1,
+        "Touches": 16,
+        "Tkl": 11,
+        "Int": 5,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 0.8,
+        "npxG": 1.2,
+        "xAG": 3.1
+      },
+      "sca": {
+        "SCA": 9,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 32,
+        "Att": 54,
+        "Cmp%": 95.0,
+        "PrgP": 15
+      },
+      "carries": {
+        "Carries": 12,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 0
+      }
+    },
+    {
+      "id": 34,
+      "name": "Ra\u00fal Albiol",
+      "team": "Espanyol",
+      "position": "Forward",
+      "performance": {
+        "Gls": 4,
+        "Ast": 5,
+        "PK": 2,
+        "PKatt": 2,
+        "Sh": 0,
+        "SoT": 5,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 76,
+        "Tkl": 12,
+        "Int": 9,
+        "Blocks": 1
+      },
+      "expected": {
+        "xG": 4.0,
+        "npxG": 1.2,
+        "xAG": 0.4
+      },
+      "sca": {
+        "SCA": 10,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 29,
+        "Att": 54,
+        "Cmp%": 96.9,
+        "PrgP": 13
+      },
+      "carries": {
+        "Carries": 22,
+        "PrgC": 2
+      },
+      "takeOns": {
+        "Att": 10,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 35,
+      "name": "Jos\u00e9 Luis Morales",
+      "team": "Espanyol",
+      "position": "Defender",
+      "performance": {
+        "Gls": 1,
+        "Ast": 0,
+        "PK": 1,
+        "PKatt": 2,
+        "Sh": 6,
+        "SoT": 10,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 14,
+        "Tkl": 1,
+        "Int": 9,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 3.5,
+        "npxG": 0.9,
+        "xAG": 0.6
+      },
+      "sca": {
+        "SCA": 3,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 13,
+        "Att": 44,
+        "Cmp%": 94.4,
+        "PrgP": 16
+      },
+      "carries": {
+        "Carries": 24,
+        "PrgC": 15
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 0
+      }
+    },
+    {
+      "id": 36,
+      "name": "Roger Mart\u00ed",
+      "team": "Cadiz CF",
+      "position": "Defender",
+      "performance": {
+        "Gls": 8,
+        "Ast": 5,
+        "PK": 0,
+        "PKatt": 1,
+        "Sh": 11,
+        "SoT": 2,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 51,
+        "Tkl": 14,
+        "Int": 8,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 1.9,
+        "npxG": 0.1,
+        "xAG": 3.6
+      },
+      "sca": {
+        "SCA": 8,
+        "GCA": 1
+      },
+      "passes": {
+        "Cmp": 4,
+        "Att": 40,
+        "Cmp%": 69.7,
+        "PrgP": 1
+      },
+      "carries": {
+        "Carries": 14,
+        "PrgC": 0
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 37,
+      "name": "Manu Trigueros",
+      "team": "Athletic Bilbao",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 2,
+        "Ast": 3,
+        "PK": 0,
+        "PKatt": 1,
+        "Sh": 3,
+        "SoT": 1,
+        "CrdY": 1,
+        "CrdR": 0,
+        "Touches": 78,
+        "Tkl": 15,
+        "Int": 5,
+        "Blocks": 3
+      },
+      "expected": {
+        "xG": 3.7,
+        "npxG": 4.8,
+        "xAG": 1.2
+      },
+      "sca": {
+        "SCA": 10,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 14,
+        "Att": 55,
+        "Cmp%": 61.1,
+        "PrgP": 12
+      },
+      "carries": {
+        "Carries": 1,
+        "PrgC": 1
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 38,
+      "name": "Nabil Fekir",
+      "team": "Real Betis",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 1,
+        "Ast": 5,
+        "PK": 2,
+        "PKatt": 1,
+        "Sh": 6,
+        "SoT": 10,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 13,
+        "Tkl": 10,
+        "Int": 5,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 2.1,
+        "npxG": 0.1,
+        "xAG": 4.8
+      },
+      "sca": {
+        "SCA": 8,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 13,
+        "Att": 56,
+        "Cmp%": 63.8,
+        "PrgP": 15
+      },
+      "carries": {
+        "Carries": 4,
+        "PrgC": 13
+      },
+      "takeOns": {
+        "Att": 3,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 39,
+      "name": "Borja Iglesias",
+      "team": "Osasuna",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 8,
+        "Ast": 2,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 13,
+        "SoT": 3,
+        "CrdY": 1,
+        "CrdR": 1,
+        "Touches": 92,
+        "Tkl": 13,
+        "Int": 5,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 3.9,
+        "npxG": 1.4,
+        "xAG": 4.0
+      },
+      "sca": {
+        "SCA": 7,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 9,
+        "Att": 44,
+        "Cmp%": 94.4,
+        "PrgP": 2
+      },
+      "carries": {
+        "Carries": 19,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 8,
+        "Succ": 2
+      }
+    },
+    {
+      "id": 40,
+      "name": "Sergio Canales",
+      "team": "Getafe CF",
+      "position": "Defender",
+      "performance": {
+        "Gls": 5,
+        "Ast": 1,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 11,
+        "SoT": 10,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 77,
+        "Tkl": 8,
+        "Int": 6,
+        "Blocks": 3
+      },
+      "expected": {
+        "xG": 0.7,
+        "npxG": 4.9,
+        "xAG": 3.7
+      },
+      "sca": {
+        "SCA": 8,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 14,
+        "Att": 25,
+        "Cmp%": 78.9,
+        "PrgP": 4
+      },
+      "carries": {
+        "Carries": 19,
+        "PrgC": 2
+      },
+      "takeOns": {
+        "Att": 7,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 41,
+      "name": "\u00c1lvaro Negredo",
+      "team": "Granada CF",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 2,
+        "Ast": 0,
+        "PK": 0,
+        "PKatt": 2,
+        "Sh": 2,
+        "SoT": 4,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 42,
+        "Tkl": 10,
+        "Int": 3,
+        "Blocks": 3
+      },
+      "expected": {
+        "xG": 1.3,
+        "npxG": 2.2,
+        "xAG": 4.1
+      },
+      "sca": {
+        "SCA": 3,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 5,
+        "Att": 13,
+        "Cmp%": 98.5,
+        "PrgP": 1
+      },
+      "carries": {
+        "Carries": 4,
+        "PrgC": 7
+      },
+      "takeOns": {
+        "Att": 5,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 42,
+      "name": "Salvador S\u00e1nchez",
+      "team": "Sevilla FC",
+      "position": "Defender",
+      "performance": {
+        "Gls": 7,
+        "Ast": 4,
+        "PK": 0,
+        "PKatt": 0,
+        "Sh": 0,
+        "SoT": 9,
+        "CrdY": 2,
+        "CrdR": 0,
+        "Touches": 74,
+        "Tkl": 15,
+        "Int": 9,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 1.4,
+        "npxG": 0.4,
+        "xAG": 4.3
+      },
+      "sca": {
+        "SCA": 1,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 46,
+        "Att": 18,
+        "Cmp%": 60.7,
+        "PrgP": 5
+      },
+      "carries": {
+        "Carries": 17,
+        "PrgC": 13
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 43,
+      "name": "Lucas P\u00e9rez",
+      "team": "Rayo Vallecano",
+      "position": "Defender",
+      "performance": {
+        "Gls": 4,
+        "Ast": 3,
+        "PK": 2,
+        "PKatt": 1,
+        "Sh": 8,
+        "SoT": 9,
+        "CrdY": 1,
+        "CrdR": 1,
+        "Touches": 40,
+        "Tkl": 15,
+        "Int": 9,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 3.0,
+        "npxG": 3.2,
+        "xAG": 1.3
+      },
+      "sca": {
+        "SCA": 6,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 20,
+        "Att": 42,
+        "Cmp%": 89.1,
+        "PrgP": 4
+      },
+      "carries": {
+        "Carries": 6,
+        "PrgC": 13
+      },
+      "takeOns": {
+        "Att": 7,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 44,
+      "name": "Gon\u00e7alo Guedes",
+      "team": "Sevilla FC",
+      "position": "Defender",
+      "performance": {
+        "Gls": 4,
+        "Ast": 2,
+        "PK": 1,
+        "PKatt": 0,
+        "Sh": 6,
+        "SoT": 5,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 14,
+        "Tkl": 10,
+        "Int": 4,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 3.8,
+        "npxG": 0.1,
+        "xAG": 3.4
+      },
+      "sca": {
+        "SCA": 6,
+        "GCA": 4
+      },
+      "passes": {
+        "Cmp": 31,
+        "Att": 40,
+        "Cmp%": 78.2,
+        "PrgP": 15
+      },
+      "carries": {
+        "Carries": 0,
+        "PrgC": 2
+      },
+      "takeOns": {
+        "Att": 3,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 45,
+      "name": "Carlos Soler",
+      "team": "Sevilla FC",
+      "position": "Defender",
+      "performance": {
+        "Gls": 3,
+        "Ast": 5,
+        "PK": 0,
+        "PKatt": 1,
+        "Sh": 8,
+        "SoT": 5,
+        "CrdY": 1,
+        "CrdR": 0,
+        "Touches": 87,
+        "Tkl": 8,
+        "Int": 6,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 2.6,
+        "npxG": 3.6,
+        "xAG": 1.3
+      },
+      "sca": {
+        "SCA": 4,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 34,
+        "Att": 47,
+        "Cmp%": 66.9,
+        "PrgP": 20
+      },
+      "carries": {
+        "Carries": 0,
+        "PrgC": 12
+      },
+      "takeOns": {
+        "Att": 1,
+        "Succ": 3
+      }
+    },
+    {
+      "id": 46,
+      "name": "Sergio Reguil\u00f3n",
+      "team": "Real Sociedad",
+      "position": "Forward",
+      "performance": {
+        "Gls": 4,
+        "Ast": 0,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 9,
+        "SoT": 3,
+        "CrdY": 3,
+        "CrdR": 1,
+        "Touches": 26,
+        "Tkl": 7,
+        "Int": 4,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 2.5,
+        "npxG": 3.2,
+        "xAG": 3.1
+      },
+      "sca": {
+        "SCA": 5,
+        "GCA": 0
+      },
+      "passes": {
+        "Cmp": 10,
+        "Att": 18,
+        "Cmp%": 97.1,
+        "PrgP": 3
+      },
+      "carries": {
+        "Carries": 10,
+        "PrgC": 9
+      },
+      "takeOns": {
+        "Att": 2,
+        "Succ": 1
+      }
+    },
+    {
+      "id": 47,
+      "name": "Kike Garc\u00eda",
+      "team": "Mallorca",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 6,
+        "Ast": 2,
+        "PK": 1,
+        "PKatt": 2,
+        "Sh": 10,
+        "SoT": 1,
+        "CrdY": 3,
+        "CrdR": 0,
+        "Touches": 67,
+        "Tkl": 14,
+        "Int": 6,
+        "Blocks": 0
+      },
+      "expected": {
+        "xG": 4.9,
+        "npxG": 0.2,
+        "xAG": 0.5
+      },
+      "sca": {
+        "SCA": 2,
+        "GCA": 3
+      },
+      "passes": {
+        "Cmp": 8,
+        "Att": 35,
+        "Cmp%": 86.9,
+        "PrgP": 19
+      },
+      "carries": {
+        "Carries": 27,
+        "PrgC": 4
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 48,
+      "name": "Takefusa Kubo",
+      "team": "Mallorca",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 5,
+        "Ast": 4,
+        "PK": 0,
+        "PKatt": 3,
+        "Sh": 3,
+        "SoT": 4,
+        "CrdY": 2,
+        "CrdR": 0,
+        "Touches": 59,
+        "Tkl": 1,
+        "Int": 8,
+        "Blocks": 4
+      },
+      "expected": {
+        "xG": 1.4,
+        "npxG": 4.2,
+        "xAG": 1.8
+      },
+      "sca": {
+        "SCA": 5,
+        "GCA": 2
+      },
+      "passes": {
+        "Cmp": 20,
+        "Att": 0,
+        "Cmp%": 94.3,
+        "PrgP": 6
+      },
+      "carries": {
+        "Carries": 29,
+        "PrgC": 3
+      },
+      "takeOns": {
+        "Att": 2,
+        "Succ": 5
+      }
+    },
+    {
+      "id": 49,
+      "name": "Chimy \u00c1vila",
+      "team": "Elche CF",
+      "position": "Midfielder",
+      "performance": {
+        "Gls": 3,
+        "Ast": 2,
+        "PK": 1,
+        "PKatt": 1,
+        "Sh": 10,
+        "SoT": 4,
+        "CrdY": 1,
+        "CrdR": 1,
+        "Touches": 48,
+        "Tkl": 7,
+        "Int": 0,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 0.8,
+        "npxG": 4.1,
+        "xAG": 1.5
+      },
+      "sca": {
+        "SCA": 6,
+        "GCA": 5
+      },
+      "passes": {
+        "Cmp": 38,
+        "Att": 7,
+        "Cmp%": 71.9,
+        "PrgP": 15
+      },
+      "carries": {
+        "Carries": 27,
+        "PrgC": 0
+      },
+      "takeOns": {
+        "Att": 6,
+        "Succ": 4
+      }
+    },
+    {
+      "id": 50,
+      "name": "Pervis Estupi\u00f1\u00e1n",
+      "team": "Almeria",
+      "position": "Goalkeeper",
+      "performance": {
+        "Gls": 8,
+        "Ast": 5,
+        "PK": 2,
+        "PKatt": 1,
+        "Sh": 15,
+        "SoT": 3,
+        "CrdY": 0,
+        "CrdR": 0,
+        "Touches": 100,
+        "Tkl": 6,
+        "Int": 4,
+        "Blocks": 5
+      },
+      "expected": {
+        "xG": 2.3,
+        "npxG": 1.5,
+        "xAG": 1.6
+      },
+      "sca": {
+        "SCA": 7,
+        "GCA": 1
+      },
+      "passes": {
+        "Cmp": 30,
+        "Att": 31,
+        "Cmp%": 90.8,
+        "PrgP": 6
+      },
+      "carries": {
+        "Carries": 3,
+        "PrgC": 1
+      },
+      "takeOns": {
+        "Att": 3,
+        "Succ": 0
+      }
+    }
+  ]
+}
