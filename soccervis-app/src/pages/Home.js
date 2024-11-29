@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PlayerCard from '../components/PlayerCard';
 import SearchBar from '../components/SearchBar';
 
 const Home = ({
@@ -15,21 +14,14 @@ const Home = ({
   });
 
   const displayResults = () => {
+    if (!players || players.length === 0) {
+      return <p>Loading player data...</p>;
+    }
     if (
       filteredResults.players.length === 0 &&
       filteredResults.teams.length === 0
     ) {
-      return players.map((player) => (
-        <div
-          key={player.id}
-          onClick={() => {
-            setSelectedPlayer(player);
-            setView('playerProfile');
-          }}
-        >
-          <PlayerCard player={player} />
-        </div>
-      ));
+      return null;
     } else {
       return (
         <div>
@@ -42,7 +34,7 @@ const Home = ({
                 setView('playerProfile');
               }}
             >
-              <PlayerCard player={player} />
+              <p>{player.name}</p>
             </div>
           ))}
           <h2>Teams</h2>

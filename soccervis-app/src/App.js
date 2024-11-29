@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import PlayerCard from './components/PlayerCard';
 import PlayerProfile from './pages/PlayerProfile';
 import LeaguePage from './pages/LeaguePage';
 import TeamPage from './pages/TeamPage';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+import PlayersPage from './pages/PlayersPage';
 import { fetchPlayerData } from './utils/Api';
 
 const App = () => {
@@ -15,11 +17,13 @@ const App = () => {
   useEffect(() => {
     const loadPlayerData = async () => {
       const data = await fetchPlayerData();
-      setPlayers(data.players);
-      const uniqueTeams = [
-        ...new Set(data.players.map((player) => player.team)),
-      ];
-      setTeams(uniqueTeams);
+      if (data && data.players) {
+        setPlayers(data.players);
+        const uniqueTeams = [
+          ...new Set(data.players.map((player) => player.team)),
+        ].sort();
+        setTeams(uniqueTeams);
+      }
     };
     loadPlayerData();
   }, []);
@@ -28,42 +32,50 @@ const App = () => {
     switch (view) {
       case 'playerProfile':
         return <PlayerProfile player={selectedPlayer} />;
+      case 'playersPage':
+        return (
+          <PlayersPage
+            players={players}
+            setSelectedPlayer={setSelectedPlayer}
+            setView={setView}
+          />
+        );
       case 'leaguePage':
-        return <LeaguePage teams={teams} />;
+        return (
+          <LeaguePage
+            teams={teams}
+            setSelectedTeam={setSelectedTeam}
+            setView={setView}
+          />
+        );
       case 'teamPage':
-        return <TeamPage teamName={selectedTeam} players={players} />;
+        return (
+          <TeamPage
+            teamName={selectedTeam}
+            players={players}
+            setSelectedPlayer={setSelectedPlayer}
+            setView={setView}
+          />
+        );
       default:
         return (
-          <div>
-            {players.map((player) => (
-              <div
-                key={player.id}
-                onClick={() => {
-                  setSelectedPlayer(player);
-                  setView('playerProfile');
-                }}
-              >
-                <PlayerCard player={player} />
-              </div>
-            ))}
-            <button onClick={() => setView('leaguePage')}>View League</button>
-            {teams.map((team) => (
-              <button
-                key={team}
-                onClick={() => {
-                  setSelectedTeam(team);
-                  setView('teamPage');
-                }}
-              >
-                View {team} Team
-              </button>
-            ))}
-          </div>
+          <Home
+            players={players}
+            teams={teams}
+            setView={setView}
+            setSelectedPlayer={setSelectedPlayer}
+            setSelectedTeam={setSelectedTeam}
+          />
         );
     }
   };
 
-  return <div>{renderView()}</div>;
+  return (
+    <div>
+      <Navbar setView={setView} />
+      {renderView()}
+    </div>
+  );
 };
 
 export default App;
