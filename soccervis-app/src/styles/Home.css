@@ -1,0 +1,68 @@
+/* Home.css */
+
+.home-page {
+  padding: 2rem;
+  /* background-image: url('/images/soccer-field-bg.jpg'); Optional background image of a soccer field */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.search-results {
+  margin-top: 2rem;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* White background with slight transparency */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-results h2 {
+  font-size: 1.5rem;
+  color: #003366; /* Same color as navbar for consistency */
+  margin-bottom: 1rem;
+}
+
+.search-results div {
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.search-results div:hover {
+  background-color: #e0e0e0;
+}
+
+.team-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem 0;
+  background-color: #008000; /* Green to reflect soccer fields */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.team-button:hover {
+  background-color: #006400; /* Darker green on hover */
+}
+
+.team-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #003366;
+}
+
+.team-button:active {
+  background-color: #004d00; /* Even darker green when active */
+}
