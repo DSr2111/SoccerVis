@@ -1,3 +1,5 @@
+// src/App.js
+
 import React, { useState, useEffect } from 'react';
 import PlayerProfile from './pages/PlayerProfile';
 import LeaguePage from './pages/LeaguePage';
@@ -6,6 +8,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import PlayersPage from './pages/PlayersPage';
 import { fetchPlayerData } from './utils/Api';
+import './styles/App.css';
 
 const App = () => {
   const [players, setPlayers] = useState([]);
@@ -13,6 +16,10 @@ const App = () => {
   const [view, setView] = useState('home');
   const [selectedPlayer, setSelectedPlayer] = useState(null);
   const [selectedTeam, setSelectedTeam] = useState(null);
+  const [filteredResults, setFilteredResults] = useState({
+    players: [],
+    teams: [],
+  });
 
   useEffect(() => {
     const loadPlayerData = async () => {
@@ -65,15 +72,22 @@ const App = () => {
             setView={setView}
             setSelectedPlayer={setSelectedPlayer}
             setSelectedTeam={setSelectedTeam}
+            filteredResults={filteredResults}
+            setFilteredResults={setFilteredResults}
           />
         );
     }
   };
 
   return (
-    <div>
-      <Navbar setView={setView} />
-      {renderView()}
+    <div className="app-container">
+      <Navbar
+        setView={setView}
+        players={players}
+        teams={teams}
+        setFilteredResults={setFilteredResults}
+      />
+      <div className="content-container p-8">{renderView()}</div>
     </div>
   );
 };
